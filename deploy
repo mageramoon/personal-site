@@ -1,3 +1,3 @@
 #! /bin/sh
 
-aws s3 sync /Users/mholton/Sites s3://mageramoon.com --exclude ".git*" --exclude "*.swp" --exclude "deploy" --acl public-read
+aws s3 sync /Users/mholton/Sites s3://mageramoon.com --exclude ".git*" --exclude "*.swp" --exclude "deploy" --acl public-read --exclude "README.md"
