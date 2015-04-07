@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,KAAM;EACF,UAAU,EAAE,IAAI",
+"sources": ["../scss/gigi.scss"],
+"names": [],
+"file": "gigi.css"
+}
