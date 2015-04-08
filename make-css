@@ -1,2 +1,3 @@
 #! /bin/sh
-sass --watch ~/Sites/scss:~/Sites/css
+rm css/*
+sass --watch scss:css
