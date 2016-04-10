@@ -2,6 +2,11 @@ Make sure you are in the same directory as this repository before running these 
 ```
 cd ~/Sites
 ```
+To start up the web server, do this
+```
+./dev-server
+```
+You should now be able to hit the site on localhost:8000. You will need to hit Ctrl-C if you want to stop it.
 
 To work on the scss, you need to run the following command:
 ```
