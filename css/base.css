@@ -1,192 +1,207 @@
 /* Regular Bold */
 @font-face {
-    font-family: Regular;
-    src: url('../fonts/Regular-Bold.eot');
-    src: url('../fonts/Regular-Bold.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/Regular-Bold.woff') format('woff'),
-         url('../fonts/Regular-Bold.svg#Regular') format('svg');
-    font-weight: 700;
-    font-style: normal;
+  font-family: Regular;
+  src: url("../fonts/Regular-Bold.eot");
+  src: url("../fonts/Regular-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Regular-Bold.woff") format("woff"), url("../fonts/Regular-Bold.svg#Regular") format("svg");
+  font-weight: 700;
+  font-style: normal;
 }
-
 body {
-    position: relative;
-    background: #ECCDC8;
-    padding: 8%;
+  position: relative;
+  background: #ECCDC8;
+  padding: 8%;
 }
 
 #top, #bottom, #left, #right {
-    display: block;
-    position: fixed;
-    background: #D4706E;
-    background: rgba(222,134,129,0.6);
+  display: block;
+  position: fixed;
+  background: #D4706E;
+  background: rgba(222, 134, 129, 0.6);
+}
 
-}
 #top {
-    top: 0;
-    left: 0.5rem;
-    right: 0.5rem;
-    height: 0.5rem;
+  top: 0;
+  left: 0.5rem;
+  right: 0.5rem;
+  height: 0.5rem;
 }
+
 #bottom {
-    left: 0.5rem;
-    right: 0.5rem;
-    height: 0.5rem;
-    bottom: 0;
+  left: 0.5rem;
+  right: 0.5rem;
+  height: 0.5rem;
+  bottom: 0;
 }
+
 #left {
-    left: 0;
-    top: 0;
-    bottom: 0;
-    width: 0.5rem;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 0.5rem;
 }
+
 #right {
-    right: 0;
-    top: 0;
-    bottom: 0;
-    width: 0.5rem;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 0.5rem;
 }
 
 .intro {
-    max-width: 54rem;
+  max-width: 54rem;
 }
 
 .h1 {
-    font-size: 2.25rem;
-    font-weight: 700;
-    font-family: 'Regular', 'Avenir Next', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    color: #ffffff;
+  font-size: 2.25rem;
+  font-weight: 700;
+  font-family: "Regular", "Avenir Next", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #ffffff;
 }
 
 .intro a {
-    color: #ffffff;
-    text-decoration: none;
-    border-bottom: 1px solid;
-    -webkit-transition: color 0.1s ease-in-out;
-    -moz-transition: color 0.1s ease-in-out;
-    -ms-transition: color 0.1s ease-in-out;
-    -o-transition: color 0.1s ease-in-out;
-    transition: color 0.1s ease-in-out;
+  color: #ffffff;
+  text-decoration: none;
+  border-bottom: 1px solid;
+  -webkit-transition: color 0.1s ease-in-out;
+  -moz-transition: color 0.1s ease-in-out;
+  -ms-transition: color 0.1s ease-in-out;
+  -o-transition: color 0.1s ease-in-out;
+  transition: color 0.1s ease-in-out;
 }
 
 a:hover {
-    color: #DE7775;
-    text-decoration: none;
-    border-bottom: 1px solid;
+  color: #DE7775;
+  text-decoration: none;
+  border-bottom: 1px solid;
 }
 
 @media only screen and (min-width: 26rem) {
-    #top {
-        left: 0.75rem;
-        right: 0.75rem;
-        height: 0.75rem;
-    }
-    #bottom {
-        left: 0.75rem;
-        right: 0.75rem;
-        height: 0.75rem;
-    }
-    #left {
-        width: 0.75rem;
-    }
-    #right {
-        width: 0.75rem;
-    }
-    .h1 {
+  #top {
+    left: 0.75rem;
+    right: 0.75rem;
+    height: 0.75rem;
+  }
+
+  #bottom {
+    left: 0.75rem;
+    right: 0.75rem;
+    height: 0.75rem;
+  }
+
+  #left {
+    width: 0.75rem;
+  }
+
+  #right {
+    width: 0.75rem;
+  }
+
+  .h1 {
     font-size: 3rem;
-    }
+  }
 }
-
 @media only screen and (min-width: 32rem) {
-    #top {
-        left: 1rem;
-        right: 1rem;
-        height: 1rem;
-    }
-    #bottom {
-        left: 1rem;
-        right: 1rem;
-        height: 1rem;
-    }
-    #left {
-        width: 1rem;
-    }
-    #right {
-        width: 1rem;
-    }
-    .h1 {
+  #top {
+    left: 1rem;
+    right: 1rem;
+    height: 1rem;
+  }
+
+  #bottom {
+    left: 1rem;
+    right: 1rem;
+    height: 1rem;
+  }
+
+  #left {
+    width: 1rem;
+  }
+
+  #right {
+    width: 1rem;
+  }
+
+  .h1 {
     font-size: 3.5rem;
-    }
+  }
 }
-
 @media only screen and (min-width: 40rem) {
-    #top {
-        left: 1.25rem;
-        right: 1.25rem;
-        height: 1.25rem;
-    }
-    #bottom {
-        left: 1.25rem;
-        right: 1.25rem;
-        height: 1.25rem;
-    }
-    #left {
-        width: 1.25rem;
-    }
-    #right {
-        width: 1.25rem;
-    }
-    .h1 {
+  #top {
+    left: 1.25rem;
+    right: 1.25rem;
+    height: 1.25rem;
+  }
+
+  #bottom {
+    left: 1.25rem;
+    right: 1.25rem;
+    height: 1.25rem;
+  }
+
+  #left {
+    width: 1.25rem;
+  }
+
+  #right {
+    width: 1.25rem;
+  }
+
+  .h1 {
     font-size: 4rem;
-    }
+  }
 }
-
 @media only screen and (min-width: 52rem) {
-    #top {
-        left: 1.5rem;
-        right: 1.5rem;
-        height: 1.5rem;
-    }
-    #bottom {
-        left: 1.5rem;
-        right: 1.5rem;
-        height: 1.5rem;
-    }
-    #left {
-        width: 1.5rem;
-    }
-    #right {
-        width: 1.5rem;
-    }
-    .h1 {
-    font-size: 4.25rem;
-    }
+  #top {
+    left: 1.5rem;
+    right: 1.5rem;
+    height: 1.5rem;
+  }
 
+  #bottom {
+    left: 1.5rem;
+    right: 1.5rem;
+    height: 1.5rem;
+  }
+
+  #left {
+    width: 1.5rem;
+  }
+
+  #right {
+    width: 1.5rem;
+  }
+
+  .h1 {
+    font-size: 4.25rem;
+  }
 }
 @media only screen and (min-width: 64rem) {
-    #top {
-        left: 2rem;
-        right: 2rem;
-        height: 2rem;
-    }
-    #bottom {
-        left: 2rem;
-        right: 2rem;
-        height: 2rem;
-    }
-    #left {
-        width: 2rem;
-    }
-    #right {
-        width: 2rem;
-    }
-    .intro {
-        max-width: 56rem;
-    }
-    .h1 {
+  #top {
+    left: 2rem;
+    right: 2rem;
+    height: 2rem;
+  }
+
+  #bottom {
+    left: 2rem;
+    right: 2rem;
+    height: 2rem;
+  }
+
+  #left {
+    width: 2rem;
+  }
+
+  #right {
+    width: 2rem;
+  }
+
+  .intro {
+    max-width: 56rem;
+  }
+
+  .h1 {
     font-size: 4.5rem;
-    }
+  }
 }
-
-
 /*# sourceMappingURL=base.css.map */
